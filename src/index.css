@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --screen-height: 100vh;
+}
+
+.mainbody {
+  background-image: url('../src/assets/wr3bg.jpg');
+  background-size: cover;
+  height: calc(1.6 * var(--screen-height));
+  width: auto;
+}
+
+.feedbackbody {
+  background: white;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'My Custom Font1';
+  src: url('./assets/SHADSER.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  animation: appear 1s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.expand {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.expand:hover {
+  transform: scale(1.2);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.leaderbordbody {
+  background: linear-gradient(rgb(161, 147, 84), rgb(247, 133, 91));
+  height: auto;
+  position: relative;
+}
+
+.container {
+  background-color: rgb(231, 223, 223);
+  border: 1px solid rgb(113, 0, 128);
+  text-align: start;
+  width: 400px;
+  height: 350px;
+  padding: 20px;
+}
+
+.widd {
+  width: 400px;
+}
+
+.borderb {
+  border: 1px solid rgb(113, 0, 128);
+}
+
+

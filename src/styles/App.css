@@ -1,0 +1,14 @@
+.something {
+    margin: 0;
+}
+
+.post {
+    background-color: #d3c7c7;
+    display: flex;
+    padding: 15px;
+    border: 2px solid rgb(84, 94, 50);
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
